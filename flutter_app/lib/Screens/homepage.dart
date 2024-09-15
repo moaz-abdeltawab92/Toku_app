@@ -53,8 +53,8 @@ class Homepage extends StatelessWidget {
                 //textAlign: TextAlign.left,
                 "Let's Start Learning",
                 style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20,
+                    fontWeight: FontWeight.w500,
+                    fontSize: 18,
                     color: const Color.fromARGB(255, 7, 7, 7)),
               ),
               const SizedBox(

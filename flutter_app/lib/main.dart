@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'Screens/homepage.dart';
 
 void main() {
-  runApp(TokuApp());
+  runApp(const TokuApp());
 }
 
 class TokuApp extends StatelessWidget {

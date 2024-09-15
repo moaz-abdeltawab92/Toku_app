@@ -60,22 +60,33 @@ class FamilyMembersPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Family Members'),
-        titleTextStyle:
-            const TextStyle(color: Color.fromARGB(255, 0, 0, 0), fontSize: 23),
-        backgroundColor: Color.fromARGB(255, 199, 191, 168),
-      ),
-      body: ListView.builder(
-        itemCount: numberslist.length,
-        itemBuilder: (context, index) {
-          return Item(
-            color: Color(0xff80B9AD),
-            number: numberslist[index],
-          );
-        },
-      ),
-    );
+        appBar: AppBar(
+          title: const Text('Family Members'),
+          titleTextStyle: const TextStyle(
+              color: Color.fromARGB(255, 0, 0, 0), fontSize: 23),
+          backgroundColor: Color.fromARGB(255, 199, 191, 168),
+        ),
+        body: ListView.builder(
+          itemCount: numberslist.length,
+          itemBuilder: (context, index) {
+            return Column(
+              children: [
+                Item(
+                  color: Color(0xff538392),
+                  number: numberslist[index],
+                ),
+                Divider(
+                  // الفاصل بين العناصر
+                  color: Colors.grey,
+                  thickness: 1.5,
+                  height: 1,
+                  // endIndent: ,
+                  indent: 101, // ارتفاع الفاصل (المسافة بين العناصر)
+                ),
+              ],
+            );
+          },
+        ));
   }
 
   // List<Widget> getList(List<Number> numberslist) {

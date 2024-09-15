@@ -56,9 +56,21 @@ class PhrasesPage extends StatelessWidget {
       body: ListView.builder(
         itemCount: phrasesList.length,
         itemBuilder: (context, index) {
-          return phrasesItem(
-            number: phrasesList[index],
-            color: Color(0xff538392),
+          return Expanded(
+            child: Column(
+              children: [
+                phrasesItem(
+                  number: phrasesList[index],
+                  color: Color(0xff538392),
+                ),
+                Divider(
+                  color: Colors.grey,
+                  thickness: 1.5,
+                  height: 0,
+                  indent: 1,
+                ),
+              ],
+            ),
           );
         },
       ),
