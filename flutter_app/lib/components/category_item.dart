@@ -44,9 +44,16 @@ class Category extends StatelessWidget {
               SizedBox(
                 height: 11,
               ),
-              CircleAvatar(
-                radius: 27,
-                child: Image(image: NetworkImage("$image")),
+              Image(
+                image: NetworkImage("$image"),
+                height: 70,
+                width: 60,
+                // CircleAvatar(
+                //   backgroundColor: Colors.white,
+                //   radius: 27,
+                //   child:
+
+                //   ),
               )
             ],
           ),

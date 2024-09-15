@@ -46,8 +46,19 @@ class Homepage extends StatelessWidget {
                   ),
                 ),
               ),
+              SizedBox(
+                height: 30,
+              ),
+              Text(
+                //textAlign: TextAlign.left,
+                "Let's Start Learning",
+                style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                    color: const Color.fromARGB(255, 7, 7, 7)),
+              ),
               const SizedBox(
-                height: 50,
+                height: 20,
               ),
               Container(
                 height: 400,
@@ -70,7 +81,7 @@ class Homepage extends StatelessWidget {
                           bottomLeft: 30,
                           topRight: 30,
                           image:
-                              "https://th.bing.com/th/id/OIP.yfNmAwbaMN02POjQ6jF3kgHaHa?w=170&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7",
+                              "https://i.pinimg.com/564x/1b/08/81/1b0881bf8d2b33bc4129f2c72eb86b76.jpg",
                           bottomRight: 0,
                           topLeft: 0,
                           onTap: () {
@@ -106,7 +117,7 @@ class Homepage extends StatelessWidget {
                           bottomLeft: 0,
                           topRight: 0,
                           image:
-                              "https://th.bing.com/th/id/OIP.iZuX5pnfvOWhUsPie98ffAHaGL?rs=1&pid=ImgDetMain",
+                              "https://i.pinimg.com/564x/73/dd/cb/73ddcb36b73e47bf324612da4a020a97.jpg",
                           bottomRight: 30,
                           topLeft: 30,
                           onTap: () {
@@ -117,7 +128,7 @@ class Homepage extends StatelessWidget {
                           },
                         ),
                         Category(
-                          text: "Phrase",
+                          text: "Phrases",
                           color: Color(0xff538392),
                           bottomLeft: 30,
                           topRight: 30,
@@ -133,10 +144,10 @@ class Homepage extends StatelessWidget {
                           },
                         )
                       ],
-                    )
+                    ),
                   ],
                 ),
-              )
+              ),
             ],
           ),
         ),

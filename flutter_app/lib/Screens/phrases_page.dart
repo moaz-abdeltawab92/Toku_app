@@ -8,23 +8,27 @@ class PhrasesPage extends StatelessWidget {
   final List<Data> phrasesList = const [
     Data(
         sound: "sounds/phrases/are_you_coming.wav",
-        jbName: "Kuru no?",
+        jbName: "Kimasu ka ?",
         enName: "Are you coming?"),
+    Data(
+        sound: "sounds/phrases/yes_im_coming.wav",
+        jbName: "Hai, Mukatteimasu",
+        enName: "Yes, I'm coming"),
     Data(
         sound: "sounds/phrases/dont_forget_to_subscribe.wav",
         jbName: "Channeru tōroku o wasurenaide kudasai",
         enName: "Don't forget to subscribe."),
     Data(
         sound: "sounds/phrases/how_are_you_feeling.wav",
-        jbName: "Kibun wa dō desu ka?",
+        jbName: "Go kibun wa ikagadesu ka??",
         enName: "How are you feeling?"),
     Data(
         sound: "sounds/phrases/i_love_anime.wav",
-        jbName: "Anime ga daisuki desu",
+        jbName: "Watashi wa anime ga daisukidesu",
         enName: "I love anime."),
     Data(
         sound: "sounds/phrases/i_love_programming.wav",
-        jbName: "Puroguramingu ga daisuki desu",
+        jbName: "Watashi Puroguramingu ga daisukidesu",
         enName: "I love programming."),
     Data(
         sound: "sounds/phrases/programming_is_easy.wav",
@@ -38,10 +42,6 @@ class PhrasesPage extends StatelessWidget {
         sound: "sounds/phrases/where_are_you_going.wav",
         jbName: "Doko ni iku no?",
         enName: "Where are you going?"),
-    Data(
-        sound: "sounds/phrases/yes_im_coming.wav",
-        jbName: "Hai, ikimasu",
-        enName: "Yes, I'm coming"),
   ];
 
   @override
