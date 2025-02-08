@@ -21,8 +21,14 @@ Here is a preview of the app showcasing its design and functionality:
   
 ![App Preview](https://raw.githubusercontent.com/moaz-abdeltawab92/Toku_app/master/559shots_so.png)
 
-## Technologies Used
+## **Technologies Used**  
 
-- **Flutter** for front-end development.
-- **Dart** for programming logic.
-- **Audio Assets** for pronunciation playback.
+- **Flutter**: Framework used for building the application.  
+- **Dart**: Programming language used to develop the app.  
+- **AudioPlayer Package**: For playing audio files.  
+
+![Flutter](https://img.shields.io/badge/Flutter-3.10.5-blue)  
+![Dart](https://img.shields.io/badge/Dart-2.20-green)  
+![Audio Player](https://img.shields.io/badge/Audio%20Player-v2.0-orange)  
+
+---
