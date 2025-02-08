@@ -23,6 +23,8 @@ Toku App is designed to make learning Japanese fun and interactive. The app prov
 ## **Preview**
 
 Here is a glimpse of the Toku App showcasing its main features:  
+
+
 ![App Preview](https://raw.githubusercontent.com/moaz-abdeltawab92/Toku_app/master/559shots_so.png)
 
 ---
