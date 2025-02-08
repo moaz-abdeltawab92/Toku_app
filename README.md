@@ -27,16 +27,6 @@ Here is a glimpse of the Toku App showcasing its main features:
 
 ---
 
----
-
-## Video Preview
-
-Check out this video showcasing the main features of the Toku App:
-<video controls width="100%">
-
-  <source src="https://raw.githubusercontent.com/moaz-abdeltawab92/Toku_app/master/Toku_app.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ## **Technologies Used**
 
