@@ -1,34 +1,45 @@
 # Toku App
 
-A Flutter application designed to help users learn the Japanese language.
+A simple Flutter application to help users learn Japanese by introducing numbers, colors, family terms, and essential phrases with audio support.
 
-## Overview
+---
 
-Toku App provides an engaging and interactive way to learn basic Japanese words and phrases. The app includes categories such as numbers, colors, family terms, and common phrases, all with audio pronunciation to enhance the learning experience.
+## **Overview**
 
-## Features
+Toku App is designed to make learning Japanese fun and interactive. The app provides audio pronunciations for better understanding, enabling users to learn how to correctly pronounce words and phrases.
 
-- **Learn Numbers:** Practice Japanese numbers with audio.
-- **Learn Colors:** Discover Japanese names for different colors.
-- **Family Terms:** Learn how to address family members in Japanese.
-- **Common Phrases:** Understand and pronounce useful Japanese phrases.
-- **Audio Functionality:** Listen to correct pronunciations for all terms.
+---
 
-## Preview
+## **Features**
 
-Here is a preview of the app showcasing its design and functionality:
+- **Learn Numbers**: Audio-based lessons for numbers in Japanese.
+- **Colors Vocabulary**: Learn color names with accurate pronunciation.
+- **Family Terms**: Understand and remember family-related words.
+- **Basic Phrases**: Learn essential Japanese phrases for everyday use.
+- **Audio Functionality**: Play audio for each word or phrase for better learning.
 
-  
+---
+
+## **Preview**
+
+Here is a glimpse of the Toku App showcasing its main features:  
 ![App Preview](https://raw.githubusercontent.com/moaz-abdeltawab92/Toku_app/master/559shots_so.png)
 
-## **Technologies Used**  
+---
 
-- **Flutter**: Framework used for building the application.  
-- **Dart**: Programming language used to develop the app.  
-- **AudioPlayer Package**: For playing audio files.  
+---
+
+## Video Preview
+
+Check out this video showcasing the main features of the Toku App
+![App Preview](https://raw.githubusercontent.com/moaz-abdeltawab92/Toku_app/master/Toku_app.mp4)
+
+## **Technologies Used**
+
+- **Flutter**: Framework used for building the application.
+- **Dart**: Programming language used to develop the app.
+- **AudioPlayer Package**: For playing audio files.
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.10.5-blue)  
 ![Dart](https://img.shields.io/badge/Dart-2.20-green)  
-![Audio Player](https://img.shields.io/badge/Audio%20Player-v2.0-orange)  
-
----
+![Audio Player](https://img.shields.io/badge/Audio%20Player-v2.0-orange)
