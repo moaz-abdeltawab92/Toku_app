@@ -19,7 +19,7 @@ Toku App provides an engaging and interactive way to learn basic Japanese words 
 Here is a preview of the app showcasing its design and functionality:
 
   
-![App Preview](https://raw.githubusercontent.com/moaz-abdeltawab92/Toku_app/master/toku_preview.png)
+![App Preview](https://raw.githubusercontent.com/moaz-abdeltawab92/Toku_app/master/559shots_so.png)
 
 ## Technologies Used
 
